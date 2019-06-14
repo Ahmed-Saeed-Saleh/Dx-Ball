@@ -1,0 +1,24 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x57018D78)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5CFE89FE)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5B39DF12)
+F (.\random.s)(0x5B34D9DA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x5D039FA0)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (Nokia5110.h)(0x5B39DF12)
+I (BitMaps.h)(0x5D039C7A)
+I (PORTF.h)(0x5CFEC177)
+I (..\tm4c123gh6pm.h)(0x51D45492)
+I (PORTE.h)(0x5D039097)
+I (TExaS.h)(0x569B5526)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\TExaS.c)(0x569B5546)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569B5526)
+F (.\PORTF.c)(0x5CFEC179)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf.o --omf_browse .\portf.crf --depend .\portf.d)
+I (PORTF.h)(0x5CFEC177)
+I (..\tm4c123gh6pm.h)(0x51D45492)
+F (..\week 7\PORTE.c)(0x5D039041)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\porte.o --omf_browse .\porte.crf --depend .\porte.d)
+I (..\week 7\PORTE.h)(0x5D039097)
+I (..\tm4c123gh6pm.h)(0x51D45492)
+F (.\BitMaps.c)(0x5D039CAC)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\bitmaps.o --omf_browse .\bitmaps.crf --depend .\bitmaps.d)
+I (BitMaps.h)(0x5D039C7A)
